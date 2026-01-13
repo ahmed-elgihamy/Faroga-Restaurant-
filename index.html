@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مطعم فروجة</title>
+    <link rel="icon" type="image/png" href="images/logo.jpg">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.rtl.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="nav-container">
+
+            <!-- Logo -->
+            <a href="#home" class="logo">
+                <div class="logo-circle"> <img src="images/logo.jpg" alt=""> </div>
+                <span class="logo-text ">مطعم <span class="F-logo-color">فروجة</span> </span>
+            </a>
+
+            <!-- Desktop Links -->
+            <div class="nav-links">
+                <a href="#home">الرئيسية</a>
+                <a href="#gallery">معرض الصور</a>
+                <a href="#menu">المنيو</a>
+                <a href="#about">من نحن</a>
+                <a href="#contact">تواصل معنا</a>
+            </div>
+
+            <!-- Mobile Button -->
+            <button id="menuBtn" class="menu-btn">☰</button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobileMenu" class="mobile-menu">
+            <a href="#home">الرئيسية</a>
+            <a href="#gallery">معرض الصور</a>
+            <a href="#menu">المنيو</a>
+            <a href="#about">من نحن</a>
+            <a href="#contact">تواصل معنا</a>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <section class="hero-section " id="home">
+
+        <div class="hero-content">
+            <div class="badge-tag">
+                <i class="fas fa-star"></i>
+                <span>أفضل المأكولات العربية الأصيلة</span>
+            </div>
+            <h1 class="hero-title">
+                نُقدّم لك <span class="gold-text">المذاق الأصيل</span><br>
+                بأيدٍ بدوية ماهرة
+            </h1>
+            <p class="hero-subtitle">
+                استمتع بألذّ الأطباق العربية التقليدية الفخمة بأجود المكونات الطازجة، في<br class="d-none d-md-block">
+                أجواءٍ دافئةٍ تجمع بين الأصالة والحداثة
+            </p>
+            <div class="cta-buttons">
+                <a href="https://drive.google.com/file/d/17JaBgZ4mvizbYHh50xi_niSPUjY2rPvl/view?usp=sharing"
+                    class="btn-menu">
+                    <i class="fas fa-book-open"></i>
+                    <span>شاهد المنيو</span>
+                </a>
+                <a href="https://wa.me/201277331728?text=مرحباً،%20حابب%20أطلب%20من%20مطعم%20فروجة" class="btn-order"
+                    target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>اطلب الآن</span>
+                </a>
+
+            </div>
+        </div>
+        <!-- Social Icons -->
+        <div class="footer-social hero-social">
+            <a href="https://www.facebook.com/profile.php?id=100078178685630" target="_blank">
+                <i class="fa-brands fa-facebook fa-xl"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-instagram fa-xl"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-linkedin fa-xl"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-tiktok fa-xl"></i>
+            </a>
+        </div>
+    </section>
+
+
+    <!-- about -->
+    <section class="food-section py-5" id="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Image -->
+                <div class="col-lg-6 position-relative">
+                    <img src="images/about2.png" class="img-fluid rounded-4 chef" alt="food">
+
+                    <div class="followers-badge">
+                        <strong>+1000</strong><br>
+                        عميل سعيد
+                    </div>
+                </div>
+                <!-- Text Content -->
+                <div class="col-lg-6 mb-4 mb-lg-0  ">
+                    <p class="text-danger fw-bold mb-2  fs-4">من نحن</p>
+
+                    <h2 class="fw-bold mb-3">
+                        الطعم الأصلي<br>
+                        <span class="text-danger">للأكل البدوي</span>
+                    </h2>
+
+                    <p class="text-muted mb-4 fs-5">
+                        مطعم فروجة هو وجهتك للأكل البدوي الأصيل في مدينة برج العرب الجديدة.
+                        نقدم لكم أشهى المشويات والأطباق التقليدية المحضرة
+                        بوصفات موروثة ومكونات طازجة عالية الجودة.
+                    </p>
+
+                    <div class="row g-3">
+                        <div class="col-6">
+                            <div class="feature-box">
+                                <i class="bi bi-award"></i>
+                                <h6>جودة عالية</h6>
+                                <p>نستخدم أجود أنواع اللحوم والمكونات الطازجة</p>
+                            </div>
+                        </div>
+
+                        <div class="col-6">
+                            <div class="feature-box">
+                                <i class="bi bi-egg-fried"></i>
+                                <h6>أكل بدوي أصيل</h6>
+                                <p>أشهى الأطباق بوصفات موروثة</p>
+                            </div>
+                        </div>
+
+                        <div class="col-6">
+                            <div class="feature-box">
+                                <i class="bi bi-people"></i>
+                                <h6>خدمة مميزة</h6>
+                                <p>فريق محترف لخدمتكم بأفضل شكل</p>
+                            </div>
+                        </div>
+
+                        <div class="col-6">
+                            <div class="feature-box">
+                                <i class="bi bi-heart"></i>
+                                <h6>طبخ بحب</h6>
+                                <p>كل طبق يُحضّر بعناية فائقة</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <script src="js/main.js"></script>
+    </section>
+
+    <!-- gallery -->
+    <section class="slider-section py-5" id="gallery">
+        <div class="container">
+
+            <!-- Section Title -->
+            <div class="slider-title text-center mb-5">
+                <span class="small-title">معرض الصور</span>
+                <h2 class="main-title">
+                    أطباقنا <span>الشهيّة</span>
+                </h2>
+                <p class="subtitle">
+                    استمتع بمشاهدة تشكيلة من ألذ الأطباق العربية المُحضّرة بعناية فائقة
+                </p>
+            </div>
+
+            <!-- Slider -->
+            <div class="swiper foodSwiper">
+                <div class="swiper-wrapper " id="foodSlides"></div>
+
+                <!-- Controls -->
+                <div class="swiper-pagination "></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- menu -->
+    <section class="py-5 text-center menu-section" id="menu">
+        <div class="container">
+
+            <small class="text-muted d-block mb-2 fw-bold">قائمة الطعام</small>
+
+            <h1 class="section-title-menu mb-3">
+                <span class="akTashif">اكتشف</span> المنيو
+            </h1>
+
+            <p class="section-sub-menu title mb-5">
+                تصفح قائمة طعامنا الشاملة واختر من بين تشكيلة واسعة من الأطباق العربية الأصيلة
+            </p>
+
+            <div class="menu-card mx-auto" style="max-width: 700px;">
+                <div class="menu-icon mb-4"><i class="fa-solid fa-utensils fa-xl" style="color: #fafafa;"></i></div>
+
+                <h3 class="fw-bold mb-3">قائمة الطعام الكاملة</h3>
+
+                <p class="text-muted mb-4">
+                    اضغط على الزر أدناه لتصفح قائمة طعامنا الكاملة مع الأسعار
+                </p>
+
+                <a href="#" class="btn menu-btnn">
+                    افتح المنيو ↗
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <div class="container py-5">
+            <!-- Section Title -->
+            <div class="text-center mb-4">
+                <p class="text-muted fw-bold">آراء العملاء</p>
+                <h2 class="section-title-rev">ماذا يقول <span>عملاؤنا</span></h2>
+                <p class="text-muted">نفخر بثقة عملائنا الكرام ونسعى دائماً لتقديم أفضل تجربة طعام</p>
+            </div>
+
+            <!-- Testimonials Bottom -->
+            <div class="row g-4 mb-5">
+                <div class="col-md-6">
+                    <div class="testimonial-card">
+                        <div class="quote">“</div>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p>اللحمة طريّة ومُستوية مظبوط، والرز حكاية تانية خالص. أكل بدوي أصيل وطعم ما يتنسيش.</p>
+                        <div class="d-flex align-items-center mt-3">
+                            <div class="avatar me-2">ف</div>
+                            <div>
+                                <strong>فاطمة علي</strong><br>
+                                <!-- <small class="text-muted">قبل أسبوعين</small> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="testimonial-card">
+                        <div class="quote">“</div>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p>أفضل مطعم عربي جربته! الطعام لذيذ جداً والخدمة ممتازة. أنصح الجميع.</p>
+                        <div class="d-flex align-items-center mt-3">
+                            <div class="avatar me-2">أ</div>
+                            <div>
+                                <strong>أحمد محمد</strong><br>
+                                <!-- <small class="text-muted">قبل أسبوع</small> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Testimonials Top -->
+            <div class="row g-4 mb-5">
+                <div class="col-md-6">
+                    <div class="testimonial-card">
+                        <div class="quote">“</div>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p>الفراخ مشوية على أصولها، والحمام المحشي مليان وطعمه زي أكل البيوت زمان.</p>
+                        <div class="d-flex align-items-center mt-3">
+                            <div class="avatar me-2">ن</div>
+                            <div>
+                                <strong>نورة السعيد</strong><br>
+                                <!-- <small class="text-muted">قبل شهر</small> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="testimonial-card">
+                        <div class="quote">“</div>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p>المكرونة تحفة، والبهارات مظبوطة، والشاي البدوي بعد الأكل رايق ومظبوط.</p>
+                        <div class="d-flex align-items-center mt-3">
+                            <div class="avatar me-2">م</div>
+                            <div>
+                                <strong>محمد العبدالله</strong><br>
+                                <!-- <small class="text-muted">قبل شهر</small> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stats -->
+            <div class="row stats">
+                <div class="col-md-3 col-6 mb-4">
+                    <h2>5+</h2>
+                    <p>سنوات خبرة</p>
+                </div>
+                <div class="col-md-3 col-6 mb-4">
+                    <h2>50+</h2>
+                    <p>طبق مميز</p>
+                </div>
+                <div class="col-md-3 col-6 mb-4">
+                    <h2>4.9</h2>
+                    <p>تقييم متوسط</p>
+                </div>
+                <div class="col-md-3 col-6 mb-4">
+                    <h2>500+</h2>
+                    <p>عميل سعيد</p>
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+    <!-- contact -->
+    <section class="contact-section" dir="ltr" id="contact">
+        <div class="contact-header">
+            <small class="text-muted d-block mb-2 fw-bold">تواصل معنا</small>
+
+            <h1 class="section-title-menu mb-3">
+                <span class="akTashif">نحن</span> بانتظارك
+            </h1>
+            <p>لا تتردد في التواصل معنا لأي استفسار أو طلب، يسعد بخدمتك!</p>
+        </div>
+
+        <div class="contact-content">
+            <div class="map-box">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3424.027989950021!2d29.568226684864857!3d30.885877981584045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDUzJzA5LjIiTiAyOcKwMzMnNTcuNyJF!5e0!3m2!1sar!2seg!4v1768164180685!5m2!1sar!2seg"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe> </iframe>
+            </div>
+
+            <div class="contact-cards">
+                <div class="card">
+                    <div class="icon"><i class="fa-brands fa-whatsapp"></i></div>
+                    <h4>واتساب</h4>
+                    <p>01024299781</p>
+                    <a href="https://wa.me/201277331728?text=مرحباً،%20حابب%20أطلب%20من%20مطعم%20فروجة">راسلنا</a>
+                </div>
+
+                <div class="card">
+                    <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                    <h4>اتصل بنا</h4>
+                    <p>+201277331728</p>
+                    <p>+01144997135</p>
+                    <a href="tel:+01144997135">اتصل الآن</a>
+                </div>
+
+                <div class="card">
+                    <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                    <h4>موقعنا</h4>
+                    <p>برج العرب – الاسكندرية</p>
+                    <a href="https://maps.app.goo.gl/PqUr1PhoPN4sgJWAA">الخريطة</a>
+                </div>
+
+                <div class="card">
+                    <div class="icon"><i class="fa-solid fa-clock"></i></div>
+                    <h4>ساعات العمل</h4>
+                    <p>مفتوح 24 ساعة لتلبية طلباتك </p>
+                    <span>مفتوح الآن</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="site-footer" dir="rtl">
+        <div class="footer-container">
+
+            <div class="footer-col">
+                <h3 class="footer-logo">مطعم فروجة
+                </h3>
+                <p class="footer-desc">
+                    نقدم أشهى أطباق اللحوم والدجاج الطازجة، بطعم أصيل وجودة عالية لنضمن رضا عملائنا في كل وجبة.
+                </p>
+            </div>
+
+            <div class="footer-col">
+                <h4>روابط سريعة</h4>
+                <ul>
+                    <li><a href="#home">الرئيسية</a></li>
+                    <li><a href="#about">من نحن</a></li>
+                    <li><a href="#menu">خدماتنا</a></li>
+                    <li><a href="#contact">تواصل معنا</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>تواصل معنا</h4>
+                <ul class="footer-contact">
+                    <li><i class="fa-solid fa-phone fa-lg me-1" style="color: #a9acb2;"></i>01277331728</li>
+                    <li><i class="fa-solid fa-comment fa-lg me-1" style="color: #adb3b1;"></i></i> واتساب</li>
+                    <li><i class="fa-solid fa-location-dot fa-lg me-1" style="color: #abadb0;"></i></i>برج العرب الجديده
+                        – الاسكندرية
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>تابعنا</h4>
+                <div class="footer-social">
+                    <a href="https://www.facebook.com/profile.php?id=100078178685630"><i
+                            class="fa-brands fa-facebook fa-xl" style="color: #5c626a;"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram fa-xl" style="color: #a9aeb7;"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin fa-xl" style="color: #737882;"></i></a>
+                    <a href="#"><i class="fa-brands fa-tiktok fa-xl" style="color: #959ca7;"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            © 2026 جميع الحقوق محفوظة | مطعم فروجة
+        </div>
+    </footer>
+
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/201272778646?text=مرحباً،%20حابب%20أطلب%20من%20مطعم%20فروجة" class="whatsapp-float"
+        target="_blank" aria-label="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
