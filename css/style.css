@@ -363,7 +363,7 @@ nav.scrolled {
   .hero-social {
       flex-direction: row;
       left: 50%;
-      bottom: 80px;
+      bottom: 5%;
       transform: translateX(-50%);
   }
 }
@@ -814,7 +814,9 @@ nav.scrolled {
     margin-bottom: 60px;
   }
   
-
+.text-open-now{
+  color: green;
+}
   
   .contact-header h2 {
     font-size: 36px;
